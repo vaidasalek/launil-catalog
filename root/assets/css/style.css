@@ -1,3 +1,14 @@
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+}
+
+
 /**
 * Template Name: Maxim - v2.1.0
 * Template URL: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/
@@ -237,7 +248,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  line-height: 1;
   cursor: pointer;
   text-align: right;
 }
@@ -339,7 +349,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: calc(100vh - 72px);
-  background: url("../img/hero-bg.jpg") center center;
+  background: url("../img/articles/christmas_main.jpg") center center;
   background-size: cover;
   position: relative;
   margin-top: 72px;
@@ -348,7 +358,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
   position: absolute;
   bottom: 0;
   top: 0;
